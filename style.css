@@ -1,19 +1,45 @@
-body{
-    background-color: rgb(237, 236, 236) ;
+body {
+    background-color: rgb(237, 236, 236);
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-.profile-container {
+
+.main-center {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 30vh;
 }
-.social-link {
+
+img[alt="Phạm Thành Trung"] {
     display: block;
-    margin-bottom: 16px; /* Điều chỉnh giá trị này để tăng/giảm khoảng cách */
-    font-size: 30px;
-    text-decoration: none;
+    margin: 0 auto 16px auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
 }
-a {
+
+.info-center {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+    font-size: 32px;
     text-decoration: none;
+    gap: 8px;
 }
