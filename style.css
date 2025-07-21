@@ -14,11 +14,11 @@ body {
 
 img[alt="Phạm Thành Trung"] {
     display: block;
-    margin: 0 auto 16px auto;
-    border-radius: 40%;
+    margin: 0 auto 24px auto;
+    border-radius: 50%;
     box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-    width: 90px;
-    height: 120px;
+    width: 165px;
+    height: 165px;
     object-fit: cover;
 }
 
